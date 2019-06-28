@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31464" started-at="2019-06-28T05:47:03Z" finished-at="2019-06-28T05:47:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31464" started-at="2019-06-28T05:47:03Z" finished-at="2019-06-28T05:47:34Z">
+      <class name="com.github.testcases.RessetPassword">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.github.testcases.RessetPassword@4671e53b]" name="initializeDriver" is-config="true" duration-ms="6008" started-at="2019-06-28T05:47:15Z" finished-at="2019-06-28T05:47:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="verifyErrorMessageForInvalidUserName()[pri:0, instance:com.github.testcases.RessetPassword@4671e53b]" name="verifyErrorMessageForInvalidUserName" duration-ms="1744" started-at="2019-06-28T05:47:21Z" finished-at="2019-06-28T05:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageForInvalidUserName -->
+        <test-method status="PASS" signature="verifyErrorMessageForEmptyUserName()[pri:0, instance:com.github.testcases.RessetPassword@4671e53b]" name="verifyErrorMessageForEmptyUserName" duration-ms="619" started-at="2019-06-28T05:47:22Z" depends-on-methods="com.github.testcases.RessetPassword.verifyErrorMessageForInvalidUserName" finished-at="2019-06-28T05:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageForEmptyUserName -->
+        <test-method status="PASS" signature="verifyErrorMessageContainsCant()[pri:0, instance:com.github.testcases.RessetPassword@4671e53b]" name="verifyErrorMessageContainsCant" duration-ms="33" started-at="2019-06-28T05:47:23Z" depends-on-methods="com.github.testcases.RessetPassword.verifyErrorMessageForEmptyUserName" finished-at="2019-06-28T05:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageContainsCant -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.github.testcases.RessetPassword@4671e53b]" name="quit" is-config="true" duration-ms="986" started-at="2019-06-28T05:47:23Z" finished-at="2019-06-28T05:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.github.testcases.RessetPassword -->
+      <class name="com.github.testcases.SignUp">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.github.testcases.SignUp@2db7a79b]" name="initializeDriver" is-config="true" duration-ms="6142" started-at="2019-06-28T05:47:24Z" finished-at="2019-06-28T05:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="verifySignUpPage()[pri:0, instance:com.github.testcases.SignUp@2db7a79b]" name="verifySignUpPage" duration-ms="1808" started-at="2019-06-28T05:47:30Z" finished-at="2019-06-28T05:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPage -->
+        <test-method status="PASS" signature="verifyCreateAnAccountButtonIsDisable()[pri:0, instance:com.github.testcases.SignUp@2db7a79b]" name="verifyCreateAnAccountButtonIsDisable" duration-ms="785" started-at="2019-06-28T05:47:32Z" depends-on-methods="com.github.testcases.SignUp.verifySignUpPage" finished-at="2019-06-28T05:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateAnAccountButtonIsDisable -->
+        <test-method status="PASS" signature="verifyCreateYourAccountHeader()[pri:0, instance:com.github.testcases.SignUp@2db7a79b]" name="verifyCreateYourAccountHeader" duration-ms="26" started-at="2019-06-28T05:47:33Z" depends-on-methods="com.github.testcases.SignUp.verifySignUpPage" finished-at="2019-06-28T05:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateYourAccountHeader -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.github.testcases.SignUp@2db7a79b]" name="quit" is-config="true" duration-ms="1214" started-at="2019-06-28T05:47:33Z" finished-at="2019-06-28T05:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.github.testcases.SignUp -->
+      <class name="com.github.testcases.Login">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.github.testcases.Login@37374a5e]" name="initializeDriver" is-config="true" duration-ms="9870" started-at="2019-06-28T05:47:03Z" finished-at="2019-06-28T05:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="verifyLoginPage()[pri:0, instance:com.github.testcases.Login@37374a5e]" name="verifyLoginPage" duration-ms="609" started-at="2019-06-28T05:47:13Z" finished-at="2019-06-28T05:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method status="PASS" signature="verifyMandatoryFields()[pri:0, instance:com.github.testcases.Login@37374a5e]" name="verifyMandatoryFields" duration-ms="464" started-at="2019-06-28T05:47:13Z" depends-on-methods="com.github.testcases.Login.verifyLoginPage" finished-at="2019-06-28T05:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMandatoryFields -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.github.testcases.Login@37374a5e]" name="quit" is-config="true" duration-ms="1118" started-at="2019-06-28T05:47:14Z" finished-at="2019-06-28T05:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.github.testcases.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

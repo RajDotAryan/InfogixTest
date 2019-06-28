@@ -1,0 +1,9 @@
+com\test\utilities\PropertyHandler.class
+com\github\testcases\RessetPassword.class
+com\github\testcases\Login.class
+com\test\objectRepository\SignUpPage.class
+com\test\objectRepository\RestPasswordPage.class
+com\github\testcases\SignUp.class
+com\test\objectRepository\LoginPage.class
+com\test\utilities\PageFactoryAbstract.class
+com\test\utilities\WebElementUtils.class
